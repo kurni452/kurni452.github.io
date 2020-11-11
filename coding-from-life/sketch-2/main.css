@@ -1,0 +1,375 @@
+/*
+  Coding from Life – Sketch 2: fluid layout
+
+  For sketch 2 you'll be positioning elements relative to a fluid container. This
+  means you'll need to use percentages when positioning and sizingelements within
+  your frame.
+*/
+
+
+body {
+  background-color: black;
+}
+
+.frame {
+  width: 95vw;
+  height: 57vw;
+  background: hsl(194, 100%, 95%);
+  margin: 2.5vw auto;
+  position: relative;
+  z-index: -5;
+}
+
+/* Your CSS goes here */
+
+.book1 {
+  width: 12vw;
+  height: 15vw;
+  background: hsl(36, 44%, 95%);
+  position: relative;
+  top: 10vw;
+  left: 7vw;
+}
+
+.book1-pages {
+  width: 13vw;
+  height: 15vw;
+  background: hsl(36, 20%, 70%);
+  position: relative;
+  top: -0.7vw;
+  left: 0vw;
+  z-index: -2;
+  transform: skewY(-6deg);
+}
+
+.tabletop {
+  width: 95vw;
+  height: 20vw;
+  background: hsl(25, 32%, 75%);
+  position: relative;
+  top: 39vw;
+  z-index: -4;
+}
+
+.tablebottom {
+  width: 95vw;
+  height: 8vw;
+  background: hsl(25, 32%, 55%);
+  position: relative;
+  top: -15.5vw;
+  left: -7vw;
+  z-index: -3;
+}
+
+.vase {
+  width: 9vw;
+  height: 10vw;
+  background: hsl(48, 50%, 90%);
+  border-radius: 60% 60% 30% 30% / 80% 80% 40% 40%;
+  position: relative;
+  left: 50vw;
+  top: -9vw;
+  z-index: 2;
+}
+
+.book2-top {
+  width: 18vw;
+  height: 3vw;
+  transform: skew(50deg);
+  background: hsl(0, 0%, 25%);
+  position: relative;
+  top: -10vw;
+  left: 43vw;
+}
+
+.book2-spine {
+  width: 18vw;
+  height: 3vw;
+  background: black;
+  position: relative;
+  top: -10vw;
+  left: 44.8vw;
+}
+
+.book2-pages {
+  width: 3.5vw;
+  height: 2.9vw;
+  transform: skewY(41.2deg);
+  background: hsl(0, 0%, 95%);
+  position: relative;
+  top: -14.4vw;
+  left: 41.3vw;
+}
+
+.stem1 {
+  width: 0.5vw;
+  height: 4vw;
+  border-radius: 20% 20%;
+  border-bottom: 0%;
+  background: green;
+  position: relative;
+  top: -31.5vw;
+  left: 54vw;
+  z-index: -3;
+}
+
+.stem2 {
+  width: 0.7vw;
+  height: 4vw;
+  border-radius: 20% 20%;
+  border-bottom: 0%;
+  background: green;
+  position: relative;
+  top: -35.5vw;
+  left: 53vw;
+  transform: rotate(-5deg);
+  z-index: -3;
+}
+
+.stem3 {
+  width: 0.5vw;
+  height: 5vw;
+  border-radius: 20% 20%;
+  border-bottom: 0%;
+  background: green;
+  position: relative;
+  top: -40vw;
+  left: 55vw;
+  transform: rotate(10deg);
+  z-index: -3;
+}
+
+.flower1 {
+  width: 2.5vw;
+  height: 2.5vw;
+  background: hsl(333, 100%, 88%);
+  border-radius: 50%;
+  position: relative;
+  top: -54vw;
+  left: 55vw;
+}
+
+.flower2 {
+  width: 3vw;
+  height: 3vw;
+  background: hsl(333, 100%, 95%);
+  border-radius: 50%;
+  position: relative;
+  top: -57.5vw;
+  left: 51vw;
+}
+
+.flower3 {
+  width: 3.3vw;
+  height: 3.3vw;
+  background: hsl(333, 100%, 75%);
+  border-radius: 50%;
+  position: relative;
+  top: -61vw;
+  left: 53vw;
+  z-index: -1;
+}
+
+.camera {
+  position: relative;
+  top: -14.5vw;
+}
+
+.body {
+  width: 2.5vw;
+  height: 6.5vw;
+  border-radius: 10%;
+  background: hsl(0, 0%, 20%);
+  position: relative;
+  top: -32vw;
+  left: 70vw;
+}
+
+.lens1 {
+  width: 1vw;
+  height: 4vw;
+  border-radius: 5%;
+  background: hsl(0, 0%, 0%);
+  position: relative;
+  top: -37vw;
+  left: 72.5vw;
+}
+
+.lens2 {
+  width: 1.5vw;
+  height: 3vw;
+  border-top-right-radius: 40%;
+  border-bottom-right-radius: 40%;
+  background: hsl(0, 0%, 30%);
+  position: relative;
+  top: -40.5vw;
+  left: 73.5vw;
+}
+
+.shutter {
+  width: 0.8vw;
+  height: 0.5vw;
+  border-radius: 20%;
+  background: hsl(0, 0%, 0%);
+  position: relative;
+  top: -45.9vw;
+  left: 70.8vw;
+}
+
+.book3-front {
+  width: 14.2vw;
+  height: 5.3vw;
+  background: hsl(0, 0%, 90%);
+  position: relative;
+  top: -62.2vw;
+  left: 48.5vw;
+}
+
+.book3-side {
+  width: 6vw;
+  height: 5.5vw;
+  transform: skewY(41.2deg);
+  background: hsl(0, 0%, 85%);
+  position: relative;
+  top: -59.5vw;
+  left: 42.5vw;
+  z-index: -2;
+}
+
+.cat-body{
+  position: relative;
+  height: 10vw;
+  width: 8vw;
+  background-color: hsl(33, 60%, 95%);
+  border-radius: 15%;
+  display: inline-block;
+  overflow: hide;
+  z-index: 1;
+  top: -72vw;
+  left: 27.2vw;
+}
+
+.ear {
+  position: relative;
+  margin-top: -5vw;
+  height: 3.5vw;
+  width: 3vw;
+  background-color: hsl(33, 60%, 95%);
+  display: inline-block;
+  z-index: 2;
+  top: -80.6vw;
+  left: 19vw;
+  z-index: -2;
+}
+
+#ear-left {
+  clip-path: polygon(0 0, 0% 100%, 100% 60%);
+}
+
+#ear-right {
+  margin-left: 1.6vw;
+  clip-path: polygon(100% 0, 0% 60%, 100% 100%);
+}
+
+.ear-inner {
+  position: relative;
+  height: 2vw;
+  width: 2.2vw;
+  background-color: hsl(3, 100%, 35%);
+  z-index: 3;
+  left: 0.1vw;
+  top: 0.2vw;
+}
+
+#ear-inner-left {
+  margin-top: 0.2vw;
+  margin-left: 0vw;
+  clip-path: polygon(0 0, 100% 90%, 0 100%);
+  transform: rotate(-3deg);
+  left: 0.3vw;
+}
+
+#ear-inner-right {
+  margin-top: 0.2vw;
+  margin-left: 0.4vw;
+  clip-path: polygon(100% 0%, 100% 100%, 0 90%);
+  transform: rotate(3deg);
+}
+
+.collar {
+  width: 8vw;
+  height: 1vw;
+  background-color: hsl(3, 100%, 35%);
+  position: relative;
+  top: -78vw;
+  left: 27.2vw;
+  z-index: 4;
+}
+
+.eye-left {
+  width: 0.8vw;
+  height: 0.8vw;
+  background: black;
+  border-radius: 50%;
+  position: relative;
+  top: -82vw;
+  left: 29vw;
+  z-index: 5;
+}
+
+.eye-right {
+  width: 0.8vw;
+  height: 0.8vw;
+  background: black;
+  border-radius: 50%;
+  position: relative;
+  top: -82.8vw;
+  left: 32.7vw;
+  z-index: 5;
+}
+
+.nose {
+  width: 1vw;
+  height: 0.5vw;
+  background: hsl(26, 50%, 39%);
+  border-radius: 10vw / 5vw;
+  position: relative;
+  top: -82vw;
+  left: 30.8vw;
+  z-index: 5;
+}
+
+.bell {
+  width: 1.5vw;
+  height: 1.5vw;
+  background: hsl(42, 68%, 49%);
+  border-radius: 50%;
+  position: relative;
+  top: -80.5vw;
+  left: 30.5vw;
+  z-index: 5;
+}
+
+.title1 {
+  font-family: arial;
+  font-size: 1.2vw;
+  transform: rotate(90deg);
+  color: black;
+  position: relative;
+  top: -46vw;
+  left: -30.5vw;
+}
+
+.title2 {
+  font-family: arial;
+  font-size: 1vw;
+  color: white;
+  position: relative;
+  top: -87.2vw;
+  left: 46vw;
+}
+
+.objects {
+  position: relative;
+  left: 7vw;
+}

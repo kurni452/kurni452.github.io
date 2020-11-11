@@ -1,0 +1,250 @@
+body {
+	font-family: helvetica;
+}
+
+.container {
+	display: flex;
+	margin-left: 8vw;
+	height: 100%;
+	width: 50vw;
+	border-left: 0.15vw solid hsl(0, 0%, 80%);
+	border-right: 0.15vw solid hsl(0, 0%, 80%);
+}
+
+.title {
+	display: flex;
+	font-weight: 700;
+	font-size: 1.8vw;
+	padding: 1.5vw;
+	border-bottom: 0.15vw solid hsl(0, 0%, 80%);
+}
+
+.names {
+	font-size: 1vw;
+	padding-left: 1vw;
+}
+
+.username {
+	color: hsl(0, 0%, 50%);
+}
+
+.post {
+	display: flex;
+	width: 47vw;
+	padding: 1.5vw;
+	width: 47.1vw;
+	border-bottom: 0.15vw solid hsl(0, 0%, 80%);
+}
+
+.icon {
+	width: 3.5vw;
+	height: 3.5vw;
+}
+
+.letter {
+	color: white;
+	font-size: 2.1vw;
+	font-weight: 600;
+	text-align: center;
+	margin-top: 0.55vw;
+}
+
+.text {
+	padding-left: 1vw;
+	padding-top: 0.8vw;
+	font-size: 1.25vw;
+}
+
+.image {
+	width: 42vw;
+	padding: 1vw;
+	border-radius: 2vw;
+}
+
+.directory {
+	width: 32vw;
+    height: 11vw;
+    border-radius: 2vw;
+    margin-left: 3vw;
+    margin-top: 1.2vw;
+    background: hsl(0, 0%, 90%);
+    position: sticky;
+	top: 2vw;
+}
+
+.directory-text-container {
+	padding-left: 2vw;
+	padding-top: 1.5vw;
+	padding-bottom: 0.8vw;
+	font-size: 1.25vw;
+	border-bottom: 0.1vw solid hsl(0, 0%, 60%);
+}
+
+.directory-text {
+	font-weight: 550;
+}
+
+a {
+	color: black;
+	text-decoration: none;
+}
+
+a:hover {
+	text-decoration: underline;
+}
+
+.sidebar-text {
+	font-weight: 550;
+	padding-left: 2vw;
+	padding-bottom: 0.8vw;
+	font-size: 1.25vw;
+}
+
+.topics {
+	width: 32vw;
+    height: 25vw;
+    border-radius: 2vw;
+    margin-left: 3vw;
+    background: hsl(0, 0%, 90%);
+    position: sticky;
+	top: 15vw;
+}
+
+.topics-text-container {
+	padding-left: 2vw;
+	padding-top: 1.5vw;
+	padding-bottom: 0.8vw;
+	font-size: 1.25vw;
+	border-bottom: 0.1vw solid hsl(0, 0%, 60%);
+}
+
+.topics-text {
+	font-weight: 550;
+}
+
+.description {
+	font-weight: 500;
+}
+
+.link {
+	color: hsl(211, 100%, 70%)
+;
+}
+
+.dropdown {
+	display: none;
+}
+
+@media (max-width: 700px) {
+	.column-2 {
+  	display: none;
+  }
+  .post {
+  	width: 82vw;
+  	margin-right: 0;
+  }
+  .text {
+  	font-size: 0.8rem;
+  	width: 73vw;
+  }
+  .names {
+  	font-size: 0.6rem;
+  }
+  .icon {
+  	width: 30px;
+  	height: 30px;
+  }
+  .image {
+  	width: 73vw;
+  }
+  .container {
+  	width: 85vw;
+  	margin-right: 0;
+  	margin-top: -5vw;
+  }
+  .title {
+  	font-size: 1.2rem;
+  }
+  .dropbtn {
+  	width: 25px;
+  	padding-left: 1vw;
+  	position: sticky;
+  	top: 2vw;
+  }
+  .dropdown {
+  position: relative;
+  display: inline-block;
+  position: sticky;
+  top: 2vw;
+}
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f1f1f1;
+  min-width: 300px;
+  border-radius: 5%;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+.dropdown-subheadings {
+	padding-top: 3vw;
+	padding-left: 3vw;
+	padding-bottom: 2vw;
+	border-bottom: 0.1vw solid hsl(0, 0%, 60%);
+}
+.dropdown-content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+.dropdown-content a:hover {background-color: #ddd;}
+.dropdown:hover .dropdown-content {display: block;}
+}
+
+@media print { 
+  .column-2 {
+    display: none;
+  }
+  .post {
+    width: 80vw;
+    margin-left: 0;
+    margin: auto;
+  }
+  .text {
+    font-size: 0.8rem;
+    width: 73vw;
+  }
+  .image {
+    width: 50vw;
+    position: relative;
+    left: 13%;
+    padding: 2vw;
+    border-radius: 3vw;
+  }
+  .container {
+    width: 83vw;
+    margin-left: 0;
+    margin: auto;
+  }
+  .title {
+    font-size: 1.5rem;
+  }
+  .names {
+    font-size: 0.6rem;
+  }
+  .icon {
+    width: 30px;
+    height: 30px;
+  }
+  .page-break {
+    page-break-before: always;
+  }
+  .page-break-none {
+    page-break-inside: avoid;
+  }
+  .dropdown {
+  display: none;
+  }
+}
+

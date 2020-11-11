@@ -1,0 +1,149 @@
+body {
+	background-color: hsl(0, 0%, 90%);
+}
+
+.triangles {
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+	height: 100vh;
+}
+
+.triangle-one {
+	width: 0;
+    height: 0;
+    border-left: 300px solid transparent;
+    border-right: 300px solid transparent;
+    border-bottom: 600px solid black;
+    position: relative;
+    top: -200px;
+}
+
+.triangle-two {
+	width: 0;
+    height: 0;
+    border-left: 300px solid transparent;
+    border-right: 300px solid transparent;
+    border-bottom: 600px solid black;
+    position: relative;
+    top: -200px;
+}
+
+.stripe-five {
+	width: 100vw;
+	height: 6vh;
+	background-color: hsl(28, 100%, 83%);
+	position: sticky;
+	top: 40px;
+	z-index: 2;
+}
+
+.stripe-one {
+	width: 100vw;
+	height: 6vh;
+	background-color: hsl(16, 97%, 85%);
+	position: sticky;
+	top: 120px;
+	z-index: 2;
+}
+
+.stripe-two {
+	width: 100vw;
+	height: 6vh;
+	background-color: hsl(28, 100%, 83%);
+	position: sticky;
+	top: 200px;
+	z-index: 2;
+}
+
+.stripe-three {
+	width: 100vw;
+	height: 6vh;
+	background-color: hsl(22, 63%, 85%);
+	position: sticky;
+	top: 280px;
+	z-index: 2;
+}
+
+.stripe-four {
+	width: 100vw;
+	height: 6vh;
+	background-color: hsl(16, 97%, 85%);
+	position: sticky;
+	top: 360px;
+	z-index: 2;
+}
+
+.stripe-six {
+	width: 100vw;
+	height: 6vh;
+	background-color: hsl(22, 63%, 85%);
+	position: sticky;
+	top: 440px;
+	z-index: 2;
+}
+
+.stripe-seven {
+	width: 100vw;
+	height: 6vh;
+	background-color: hsl(16, 97%, 85%);
+	position: sticky;
+	top: 520px;
+	z-index: 2;
+}
+
+.stripe-eight {
+	width: 100vw;
+	height: 6vh;
+	background-color: hsl(28, 100%, 83%);
+	position: sticky;
+	top: 600px;
+	z-index: 2;
+}
+
+.stripe-nine {
+	width: 100vw;
+	height: 6vh;
+	background-color: hsl(22, 63%, 85%);
+	position: sticky;
+	top: 680px;
+	z-index: 2;
+}
+
+.stripe-ten {
+	width: 100vw;
+	height: 6vh;
+	background-color: hsl(16, 97%, 85%);
+	position: sticky;
+	top: 760px;
+	z-index: 2;
+}
+
+.triangles-down {
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+	height: 100vh;
+}
+
+.triangle-three {
+	width: 0;
+    height: 0;
+    border-left: 300px solid transparent;
+    border-right: 300px solid transparent;
+    border-top: 600px solid black;
+    position: relative;
+    top: -300px;
+    z-index: 3;
+}
+
+.triangle-four {
+	width: 0;
+    height: 0;
+    border-left: 300px solid transparent;
+    border-right: 300px solid transparent;
+    border-top: 600px solid black;
+    position: relative;
+    top: -300px;
+    z-index: 3;
+}

@@ -1,0 +1,140 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: helvetica;
+  text-align: center;
+  background-color: black;
+  animation-name: bgcolor;
+  animation-duration: 4s;
+  animation-iteration-count: infinite;
+  animation-timing-function:steps(1, end); 
+}
+
+.box {
+  width: 48vw;
+  height: 48vw;
+  background: #179184;
+  text-align: center;
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  margin-top: -24vw;
+  margin-left: -24vw;
+  animation-name: boxcolor;
+  animation-duration: 4s;
+  animation-iteration-count: infinite;
+  animation-timing-function:steps(1, end);
+  z-index: -1;
+}
+
+.zoom {
+	color: hsl(0, 0%, 90%);
+	font-size: 2vw;
+	font-weight: 600;
+	padding: 1.5vw;
+	animation-name: textcolor;
+	animation-duration: 4s;
+	animation-iteration-count: infinite;
+	animation-timing-function:steps(1, end);
+	z-index: 2;
+}
+
+.title {
+	font-size: 10vw;
+	font-weight: 600;
+	color: hsl(0, 0%, 90%);
+	white-space: nowrap;
+	margin-left: -13.5vw;
+	margin-top: 12vw;
+	z-index: 2;
+}
+
+a {
+	color: hsl(0, 0%, 90%);
+	animation-name: textcolor;
+	animation-duration: 4s;
+	animation-iteration-count: infinite;
+	animation-timing-function:steps(1, end);
+	text-decoration: none;
+}
+
+.date {
+	color: hsl(0, 0%, 90%);
+	font-size: 2vw;
+	font-weight: 600;
+	margin-top: 15vw;
+	animation-name: textcolor;
+	animation-duration: 4s;
+	animation-iteration-count: infinite;
+	animation-timing-function:steps(1, end);
+	z-index: 2;
+}
+
+/*@keyframes textcolor {
+	0% {color: hsl(0, 0%, 90%);}
+	20% {color: #179184;}
+	40% {color: black;}
+	60% {color: hsl(0, 0%, 90%);}
+	80% {color: #179184;}
+	100% {color: black;}
+}
+
+@keyframes boxcolor {
+	0% {background-color: #179184;}
+	20% {background-color: black;}
+	40% {background-color: hsl(0, 0%, 90%);}
+	60% {background-color: #179184;}
+	80% {background-color: black;}
+	100% {background-color: hsl(0, 0%, 90%);}
+}
+
+@keyframes bgcolor {
+	0% {background-color: black;}
+	20% {background-color: hsl(0, 0%, 90%);}
+	40% {background-color: #179184;}
+	60% {background-color: black;}
+	80% {background-color: hsl(0, 0%, 90%);}
+	100% {background-color: #179184;}
+}*/
+
+.paused {
+	animation-play-state: paused;
+  }
+
+ .paused * {
+ 	animation-play-state: paused;
+ }
+
+ a:hover {
+ 	text-decoration: underline;
+ 	font-style: italic;
+ }
+
+ @keyframes textcolor {
+	0% {color: hsl(0, 0%, 90%);}
+	20% {color: #179184;}
+	40% {color: black;}
+	60% {color: hsl(0, 0%, 90%);}
+	80% {color: #179184;}
+	100% {color: black;}
+}
+
+@keyframes boxcolor {
+	0% {background-color: #179184;}
+	20% {background-color: black;}
+	40% {background-color: hsl(0, 0%, 90%);}
+	60% {background-color: #179184;}
+	80% {background-color: black;}
+	100% {background-color: hsl(0, 0%, 90%);}
+}
+
+@keyframes bgcolor {
+	0% {background-color: black;}
+	20% {background-color: hsl(0, 0%, 90%);}
+	40% {background-color: #179184;}
+	60% {background-color: black;}
+	80% {background-color: hsl(0, 0%, 90%);}
+	100% {background-color: #179184;}
+}

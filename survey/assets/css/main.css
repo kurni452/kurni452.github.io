@@ -1,0 +1,111 @@
+body {
+	background-color: hsl(13, 100%, 72%);
+	height: 100;
+}
+
+.question-container {
+	background-color: hsl(31, 90%, 88%);
+	width: 50vw;
+	padding: 23px;
+	padding-left: 30px;
+	border-radius: 50px 50px 50px 50px;
+	position: relative;
+	left: 10px;
+}
+
+.question {
+	font-family: adobe-garamond-pro, serif;
+	font-size: 1.2rem;
+	font-weight: 700;
+	font-style: normal;
+	color: hsl(13, 100%, 65%);
+}
+
+.answer {
+	font-family: adobe-garamond-pro, serif;
+	font-size: 1.1rem;
+	font-style: normal;
+	color: hsl(13, 100%, 65%);
+}
+
+.line {
+	background-color: hsl(225, 100%, 95%);
+	width: 10px;
+	height: 100vw;
+	position: relative;
+	left: 80vw;
+	position: fixed;
+	top: 0;
+}
+
+h1 {
+	font-family: adobe-garamond-pro, serif;
+	font-size: 2.5rem;
+	font-style: normal;
+	padding-left: 30px;
+	color: hsl(225, 100%, 95%);
+}
+
+.jakarta {
+	background-color: hsl(31, 90%, 88%);
+	width: 300px;
+	position: absolute;
+	right: 140px;
+	top: 20%;
+	padding: 10px;
+}
+
+.flowers {
+	background-color: hsl(31, 90%, 88%);
+	width: 300px;
+	position: absolute;
+	right: 140px;
+	top: 70%;
+	padding: 10px;
+}
+
+.books {
+	background-color: hsl(31, 90%, 88%);
+	width: 300px;
+	position: absolute;
+	right: 140px;
+	top: 110%;
+	padding: 10px;
+}
+
+.melodrama {
+	background-color: hsl(31, 90%, 88%);
+	width: 300px;
+	position: absolute;
+	right: 140px;
+	top: 170%;
+	padding: 10px;
+}
+
+.mucha {
+	background-color: hsl(31, 90%, 88%);
+	width: 300px;
+	position: absolute;
+	right: 140px;
+	top: 250%;
+	padding: 10px;
+}
+
+.salzburg {
+	background-color: hsl(31, 90%, 88%);
+	width: 300px;
+	position: absolute;
+	right: 140px;
+	top: 320%;
+	padding: 10px;
+}
+
+.angel {
+	background-color: hsl(31, 90%, 88%);
+	width: 300px;
+	position: absolute;
+	right: 140px;
+	top: 368%;
+	padding: 10px;
+}
+

@@ -1,0 +1,247 @@
+body {
+	background-color: hsl(2, 84%, 15%);
+	margin: 20px;
+	min-width: 1200px;
+	width: 100%;
+}
+
+.title {
+	color: hsl(40, 77%, 65%);
+	font-family: adobe-garamond-pro, serif;
+	font-size: 2.5rem;
+	letter-spacing: 7px;
+	text-align: center;
+	padding: 5px;
+	animation-name: titlecolor;
+  	animation-duration: 5s;
+  	animation-iteration-count: infinite;
+  	transition: all ease 0.6s;
+}
+
+.name {
+	color: hsl(37, 77%, 80%);
+	font-family: adobe-garamond-pro, serif;
+	font-size: 1rem;
+	letter-spacing: 5px;
+	text-align: center;
+	position: sticky;
+  	z-index: 2vw;
+}
+
+.container {
+	display: flex;
+	justify-content: center;
+    flex-direction: row;
+    margin-top: 50px;
+    flex-wrap: wrap;
+}
+
+.wrapper {
+    height: 200px;
+    margin-bottom: 170px;
+}
+
+.wrapper img {
+    max-height: 300px;
+    max-width: 500px;
+}
+
+.survey {
+  	filter: grayscale(100%);
+  	height: 280px;
+  	width: 500px;
+}
+
+.survey:hover {
+	filter: grayscale(0%);
+	transition: all ease 0.5s;
+}
+
+.capsule {
+  	filter: grayscale(100%);
+  	height: 280px;
+  	width: 500px;
+}
+
+.capsule:hover {
+	filter: grayscale(0%);
+	transition: all ease 0.5s;
+}
+
+.malevich {
+  	filter: grayscale(100%);
+  	height: 280px;
+  	width: 500px;
+}
+
+.malevich:hover {
+	filter: grayscale(0%);
+	transition: all ease 0.5s;
+}
+
+.albers {
+  	filter: grayscale(100%);
+  	height: 280px;
+  	width: 500px;
+}
+
+.albers:hover {
+	filter: grayscale(0%);
+	transition: all ease 0.5s;
+}
+
+.martin {
+  	filter: grayscale(100%);
+  	height: 280px;
+  	width: 500px;
+}
+
+.martin:hover {
+	filter: grayscale(0%);
+	transition: all ease 0.5s;
+}
+
+.life {
+  	filter: grayscale(100%);
+  	height: 280px;
+  	width: 500px;
+}
+
+.life:hover {
+	filter: grayscale(0%);
+	transition: all ease 0.5s;
+}
+
+.archive {
+  	filter: grayscale(100%);
+  	height: 280px;
+  	width: 500px;
+}
+
+.archive:hover {
+	filter: grayscale(0%);
+	transition: all ease 0.5s;
+}
+
+.anthology {
+  	filter: grayscale(100%);
+  	height: 280px;
+  	width: 500px;
+}
+
+.anthology:hover {
+	filter: grayscale(0%);
+	transition: all ease 0.5s;
+}
+
+.layouts {
+  	filter: grayscale(100%);
+  	height: 280px;
+  	width: 500px;
+}
+
+.layouts:hover {
+	filter: grayscale(0%);
+	transition: all ease 0.5s;
+}
+
+.poster {
+  	filter: grayscale(100%);
+  	height: 280px;
+  	width: 500px;
+}
+
+.poster:hover {
+	filter: grayscale(0%);
+	transition: all ease 0.5s;
+}
+
+.zine {
+  	filter: grayscale(100%);
+  	height: 280px;
+  	width: 500px;
+}
+
+.zine:hover {
+	filter: grayscale(0%);
+	transition: all ease 0.5s;
+}
+
+.vee {
+  	filter: grayscale(100%);
+  	height: 280px;
+  	width: 500px;
+}
+
+.vee:hover {
+	filter: grayscale(0%);
+	transition: all ease 0.5s;
+}
+
+.ozkan {
+  	filter: grayscale(100%);
+  	height: 280px;
+  	width: 500px;
+}
+
+.ozkan:hover {
+	filter: grayscale(0%);
+	transition: all ease 0.5s;
+}
+
+.isolation-diary {
+	filter: grayscale(100%);
+  	height: 280px;
+  	width: 500px;
+}
+
+.isolation-diary:hover {
+	filter: grayscale(0%);
+	transition: all ease 0.5s;
+}
+
+.volchok {
+	filter: grayscale(100%);
+  	height: 280px;
+  	width: 500px;
+}
+
+.volchok:hover {
+	filter: grayscale(0%);
+	transition: all ease 0.5s;
+}
+
+.bozinoff {
+	filter: grayscale(100%);
+  	height: 280px;
+  	width: 500px;
+}
+
+.bozinoff:hover {
+	filter: grayscale(0%);
+	transition: all ease 0.5s;
+}
+
+figcaption {
+	display: block;
+	color: hsl(37, 77%, 80%);
+	font-family: adobe-garamond-pro, serif;
+	font-size: 1rem;
+	letter-spacing: 3px;
+	text-align: center;
+	padding: 10px;
+	transition: all ease 0.6s;
+}
+
+a:link {
+	text-decoration: none;
+	color: black;
+}
+
+@keyframes titlecolor {
+	0% {color: hsl(45, 80%, 52%);}
+	35% {color: hsl(21, 53%, 60%);}
+	70% {color: hsl(59, 26%, 52%);}
+	100% {color: hsl(35, 8s0%, 59%);}
+}
+

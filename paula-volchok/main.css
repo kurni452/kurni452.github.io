@@ -1,0 +1,113 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: helvetica;
+  text-align: center;
+  background-color: black;
+  animation-name: bgcolor;
+  animation-duration: 4s;
+  animation-iteration-count: infinite;
+  animation-timing-function:steps(1, end); 
+}
+
+.box {
+  width: 48vw;
+  height: 48vw;
+  background: #179184;
+  text-align: center;
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  margin-top: -24vw;
+  margin-left: -24vw;
+  animation-name: boxcolor;
+  animation-duration: 4s;
+  animation-iteration-count: infinite;
+  animation-timing-function:steps(1, end);
+  z-index: -1;
+}
+
+.zoom {
+	color: hsl(0, 0%, 90%);
+	font-size: 2vw;
+	font-weight: 600;
+	padding: 1.5vw;
+	animation-name: textcolor;
+	animation-duration: 4s;
+	animation-iteration-count: infinite;
+	animation-timing-function:steps(1, end);
+	z-index: 2;
+}
+
+.title {
+	font-size: 9.5vw;
+	font-weight: 600;
+	color: hsl(0, 0%, 90%);
+	white-space: nowrap;
+	margin-left: -17vw;
+	margin-top: 13vw;
+	z-index: 2;
+}
+
+a {
+	color: hsl(0, 0%, 90%);
+	animation-name: textcolor;
+	animation-duration: 4s;
+	animation-iteration-count: infinite;
+	animation-timing-function:steps(1, end);
+	text-decoration: none;
+}
+
+.date {
+	color: hsl(0, 0%, 90%);
+	font-size: 2vw;
+	font-weight: 600;
+	margin-top: 15vw;
+	animation-name: textcolor;
+	animation-duration: 4s;
+	animation-iteration-count: infinite;
+	animation-timing-function:steps(1, end);
+	z-index: 2;
+}
+
+.paused {
+	animation-play-state: paused;
+  }
+
+ .paused * {
+ 	animation-play-state: paused;
+ }
+
+ a:hover {
+ 	text-decoration: underline;
+ 	font-style: italic;
+ }
+
+ @keyframes textcolor {
+	0% {color: #e95033;}
+	20% {color: #cc7fa7;}
+	40% {color: #034750;}
+	60% {color: #e95033;}
+	80% {color: #cc7fa7;}
+	100% {color: #034750;}
+}
+
+@keyframes boxcolor {
+	0% {background-color: #cc7fa7;}
+	20% {background-color: #034750;}
+	40% {background-color: #e95033;}
+	60% {background-color: #cc7fa7;}
+	80% {background-color: #034750;}
+	100% {background-color: #e95033;}
+}
+
+@keyframes bgcolor {
+	0% {background-color: #034750;}
+	20% {background-color: #e95033;}
+	40% {background-color: #cc7fa7;}
+	60% {background-color: #034750;}
+	80% {background-color: #e95033;}
+	100% {background-color: #cc7fa7;}
+}

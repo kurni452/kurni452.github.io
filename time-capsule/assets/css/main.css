@@ -1,0 +1,642 @@
+body {
+	background-color: black;
+}
+
+.this {
+	width: 3.3%;
+	height: auto;
+	z-index: 2;
+	position: absolute;
+	left: 45.3vw;
+	top: 15.4vw;
+}
+
+.this:hover {
+	transform: scale(2);
+	transition: 0.15s;
+}
+
+.is {
+	width: 1.4%;
+	height: auto;
+	z-index: 2;
+	position: absolute;
+	left: 46.8vw;
+	top: 23.2vw;
+}
+
+.is:hover {
+	transform: scale(2);
+	transition: 0.15s;
+}
+
+.self-portrait {
+	width: 8.5%;
+	height: auto;
+	z-index: 3;
+	position: absolute;
+	left: 37vw;
+	top: 44.5vw;
+}
+
+.self-portrait:hover {
+	transform: scale(1.8);
+	transition: 0.15s;
+}
+
+.this2 {
+	width: 2.8%;
+	height: auto;
+	z-index: 2;
+	position: absolute;
+	top: 60.4vw;
+	left: 38.8vw;
+}
+
+.this2:hover {
+	transform: scale(2);
+	transition: 0.15s;
+}
+
+.is2 {
+	width: 1.4%;
+	height: auto;
+	z-index: 2;
+	position: absolute;
+	top: 67.1vw;
+	left: 44.5vw;
+}
+
+.is2:hover {
+	transform: scale(2);
+	transition: 0.15s;
+}
+
+.me {
+	width: 2.2%;
+	height: auto;
+	z-index: 2;
+	position: absolute;
+	top: 68.5vw;
+	left: 61.4vw;
+}
+
+.me:hover {
+	transform: scale(2);
+	transition: 0.15s;
+}
+
+.crazy {
+	width: 3.2%;
+	height: auto;
+	z-index: 2;
+	position: absolute;
+	top: 83.4vw;
+	left: 58.2vw;
+}
+
+.crazy:hover {
+	transform: scale(2);
+	transition: 0.15s;
+}
+
+.freak {
+	width: 5.8%;
+	height: auto;
+	z-index: 2;
+	position: absolute;
+	top: 89.2vw;
+	left: 56.9vw;
+}
+
+.freak:hover {
+	transform: scale(2);
+	transition: 0.15s;
+}
+
+.lame {
+	width: 4.3%;
+	height: auto;
+	z-index: 2;
+	position: absolute;
+	top: 93.2vw;
+	left: 38.6vw;
+}
+
+.lame:hover {
+	transform: scale(2);
+	transition: 0.15s;
+}
+
+.awful {
+	width: 3.3%;
+	height: auto;
+	z-index: 2;
+	position: absolute;
+	top: 93.8vw;
+	left: 51vw;
+}
+
+.awful:hover {
+	transform: scale(2);
+	transition: 0.15s;
+}
+
+.weird {
+	width: 4.5%;
+	height: auto;
+	z-index: 2;
+	position: absolute;
+	top: 99.2vw;
+	left: 45vw;
+}
+
+.weird:hover {
+	transform: scale(1.8);
+	transition: 0.15s;
+}
+
+.quietly {
+	width: 3.8%;
+	height: auto;
+	z-index: 2;
+	position: absolute;
+	top: 117.8vw;
+	left: 56.3vw;
+}
+
+.quietly:hover {
+	transform: scale(2);
+	transition: 0.15s;
+}
+
+.i-think {
+	width: 3.8%;
+	height: auto;
+	z-index: 2;
+	position: absolute;
+	top: 120.2vw;
+	left: 37.5vw;
+}
+
+.i-think:hover {
+	transform: scale(2);
+	transition: 0.15s;
+}
+
+.horrible-things {
+	width: 6.2%;
+	height: auto;
+	z-index: 2;
+	position: absolute;
+	top: 120.2vw;
+	left: 45.2vw;
+}
+
+.horrible-things:hover {
+	transform: scale(2);
+	transition: 0.15s;
+}
+
+.again {
+	width: 7.2%;
+	height: auto;
+	z-index: 2;
+	position: absolute;
+	top: 135.5vw;
+	left: 39.3vw;
+}
+
+.again:hover {
+	transform: scale(2);
+	transition: 0.15s;
+}
+
+.i {
+	width: 1.7%;
+	height: auto;
+	z-index: 2;
+	position: absolute;
+	top: 142.7vw;
+	left: 43.4vw;
+}
+
+.i:hover {
+	transform: scale(2);
+	transition: 0.15s;
+}
+
+.always {
+	width: 3.8%;
+	height: auto;
+	z-index: 2;
+	position: absolute;
+	top: 144.5vw;
+	left: 52.5vw;
+}
+
+.always:hover {
+	transform: scale(2);
+	transition: 0.15s;
+}
+
+.end {
+	width: 2.5%;
+	height: auto;
+	z-index: 2;
+	position: absolute;
+	top: 147.7vw;
+	left: 49.8vw;
+}
+
+.end:hover {
+	transform: scale(2);
+	transition: 0.15s;
+}
+
+.up {
+	width: 2.3%;
+	height: auto;
+	z-index: 2;
+	position: absolute;
+	top: 151vw;
+	left: 42.2vw;
+}
+
+.up:hover {
+	transform: scale(2);
+	transition: 0.15s;
+}
+
+.in {
+	width: 1.9%;
+	height: auto;
+	z-index: 2;
+	position: absolute;
+	top: 151vw;
+	left: 47vw;
+}
+
+.in:hover {
+	transform: scale(2);
+	transition: 0.15s;
+}
+
+.book {
+	width: 3.5%;
+	height: auto;
+	z-index: 2;
+	position: absolute;
+	top: 156.4vw;
+	left: 36.3vw;
+}
+
+.book:hover {
+	transform: scale(2);
+	transition: 0.15s;
+}
+
+.four {
+	position: absolute;
+	left: 25vw;
+	top: 165vw;
+	height: 50vw;
+	opacity: 50%;
+}
+
+.to {
+	width: 1.8%;
+	height: auto;
+	z-index: 2;
+	position: absolute;
+	top: 184.3vw;
+	left: 49.4vw;
+}
+
+.to:hover {
+	transform: scale(2);
+	transition: 0.15s;
+}
+
+.try {
+	width: 1.6%;
+	height: auto;
+	z-index: 2;
+	position: absolute;
+	top: 196.2vw;
+	left: 56.3vw;
+}
+
+.try:hover {
+	transform: scale(2);
+	transition: 0.15s;
+}
+
+.to2 {
+	width: 1.8%;
+	height: auto;
+	z-index: 2;
+	position: absolute;
+	top: 199.1vw;
+	left: 50vw;
+}
+
+.to2:hover {
+	transform: scale(2);
+	transition: 0.15s;
+}
+
+.escape {
+	width: 7%;
+	height: auto;
+	z-index: 2;
+	position: absolute;
+	top: 206.7vw;
+	left: 44.4vw;
+}
+
+.escape:hover {
+	transform: scale(2);
+	transition: 0.15s;
+}
+
+.but {
+	width: 2.7%;
+	height: auto;
+	z-index: 2;
+	position: absolute;
+	top: 244.1vw;
+	left: 55.3vw;
+}
+
+.but:hover {
+	transform: scale(2);
+	transition: 0.15s;
+}
+
+.what {
+	width: 3%;
+	height: auto;
+	z-index: 2;
+	position: absolute;
+	top: 247.2vw;
+	left: 42.5vw;
+}
+
+.what:hover {
+	transform: scale(2);
+	transition: 0.15s;
+}
+
+.is3 {
+	width: 2.2%;
+	height: auto;
+	z-index: 2;
+	position: absolute;
+	top: 253.2vw;
+	left: 43.5vw;
+}
+
+.is3:hover {
+	transform: scale(2);
+	transition: 0.15s;
+}
+
+.also-true {
+	width: 4.5%;
+	height: auto;
+	z-index: 2;
+	position: absolute;
+	top: 259vw;
+	left: 45.3vw;
+}
+
+.also-true:hover {
+	transform: scale(2);
+	transition: 0.15s;
+}
+
+.is-that {
+	width: 4.8%;
+	height: auto;
+	z-index: 2;
+	position: absolute;
+	top: 280.1vw;
+	left: 47.3vw;
+}
+
+.is-that:hover {
+	transform: scale(2);
+	transition: 0.15s;
+}
+
+.i-know {
+	width: 4.5%;
+	height: auto;
+	z-index: 2;
+	position: absolute;
+	top: 284.9vw;
+	left: 37.9vw;
+}
+
+.i-know:hover {
+	transform: scale(2);
+	transition: 0.15s;
+}
+
+.comfortable-quiet {
+	width: 8.3%;
+	height: auto;
+	z-index: 2;
+	position: absolute;
+	top: 291.2vw;
+	left: 38.2vw;
+}
+
+.comfortable-quiet:hover {
+	transform: scale(2);
+	transition: 0.15s;
+}
+
+.i2 {
+	width: 1.5%;
+	height: auto;
+	z-index: 2;
+	position: absolute;
+	top: 294.2vw;
+	left: 57.1vw;
+}
+
+.i2:hover {
+	transform: scale(2);
+	transition: 0.15s;
+}
+
+.love {
+	width: 2.4%;
+	height: auto;
+	z-index: 2;
+	position: absolute;
+	top: 296vw;
+	left: 42.5vw;
+}
+
+.love:hover {
+	transform: scale(2);
+	transition: 0.15s;
+}
+
+.more {
+	width: 7.3%;
+	height: auto;
+	z-index: 2;
+	position: absolute;
+	top: 300.2vw;
+	left: 51vw;
+}
+
+.more:hover {
+	transform: scale(2);
+	transition: 0.15s;
+}
+
+.im {
+	width: 2.4%;
+	height: auto;
+	z-index: 2;
+	position: absolute;
+	top: 308vw;
+	left: 38vw;
+}
+
+.im:hover {
+	transform: scale(2);
+	transition: 0.15s;
+}
+
+.artistic {
+	width: 4.3%;
+	height: auto;
+	z-index: 2;
+	position: absolute;
+	top: 307.3vw;
+	left: 59.5vw;
+}
+
+.artistic:hover {
+	transform: scale(2);
+	transition: 0.15s;
+}
+
+.unusual {
+	width: 4.2%;
+	height: auto;
+	z-index: 2;
+	position: absolute;
+	top: 309.7vw;
+	left: 47.4vw;
+}
+
+.unusual:hover {
+	transform: scale(2);
+	transition: 0.15s;
+}
+
+.and {
+	width: 3%;
+	height: auto;
+	z-index: 2;
+	position: absolute;
+	top: 311.7vw;
+	left: 38vw;
+}
+
+.and:hover {
+	transform: scale(2);
+	transition: 0.15s;
+}
+
+.beautiful {
+	width: 5%;
+	height: auto;
+	z-index: 2;
+	position: absolute;
+	top: 311.5vw;
+	left: 55vw;
+}
+
+.beautiful:hover {
+	transform: scale(2);
+	transition: 0.15s;
+}
+
+.i-think2 {
+	width: 4.2%;
+	height: auto;
+	z-index: 2;
+	position: absolute;
+	top: 328vw;
+	left: 56vw;
+}
+
+.i-think2:hover {
+	transform: scale(2);
+	transition: 0.15s;
+}
+
+.i3 {
+	width: 1.7%;
+	height: auto;
+	z-index: 2;
+	position: absolute;
+	top: 341.5vw;
+	left: 45.6vw;
+}
+
+.i3:hover {
+	transform: scale(2);
+	transition: 0.15s;
+}
+
+.lives {
+	width: 14%;
+	height: auto;
+	z-index: 2;
+	position: absolute;
+	top: 349.1vw;
+	left: 45vw;
+}
+
+.lives:hover {
+	transform: scale(2);
+	transition: 0.15s;
+}
+
+.into {
+	width: 2.8%;
+	height: auto;
+	z-index: 2;
+	position: absolute;
+	top: 360vw;
+	left: 50.3vw;
+}
+
+.into:hover {
+	transform: scale(2);
+	transition: 0.15s;
+}
+
+.one {
+	width: 2.8%;
+	height: auto;
+	z-index: 2;
+	position: absolute;
+	top: 364.8vw;
+	left: 43.8vw;
+	padding-bottom: 70px;
+}
+
+.one:hover {
+	transform: scale(2);
+	transition: 0.15s;
+}

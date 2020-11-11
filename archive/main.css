@@ -1,0 +1,364 @@
+body {
+	width: 100%;
+    background-color: hsl(35, 100%, 97%);
+}
+
+.vee {
+	clear: both;
+    display: inline-block;
+    overflow-x: hidden;
+    white-space: nowrap;
+    max-width: 100%;
+    font-family: arial;
+    font-size: 2rem;
+    font-weight: 550;
+    margin-bottom: 0.8vw;
+    color: hsl(35, 100%, 90%);
+}
+
+.veelink {
+	color: hsl(16, 100%, 66%);
+	text-decoration: none;
+}
+
+.veelink:hover {
+	font-style: italic;
+	font-weight: bold;
+	text-decoration: underline;
+}
+
+.sophia {
+	clear: both;
+    display: inline-block;
+    overflow: hidden;
+    white-space: nowrap;
+    max-width: 100%;
+    font-family: courier;
+    font-size: 2rem;
+    font-weight: 550;
+    margin-bottom: 0.8vw;
+    color: hsl(35, 100%, 90%);
+}
+
+.sophialink {
+	color: #d68068;
+	text-decoration: none;
+}
+
+.sophialink:hover {
+	font-style: italic;
+	font-weight: bold;
+	text-decoration: underline;
+}
+
+.malini {
+	clear: both;
+    display: inline-block;
+    overflow: hidden;
+    white-space: nowrap;
+    max-width: 100%;
+    font-family: 'Lexend Deca', sans-serif;
+    font-size: 2rem;
+    font-weight: 550;
+    margin-bottom: 0.8vw;
+    color: hsl(35, 100%, 90%);
+}
+
+.malinilink {
+	color: #6abad2;
+	text-decoration: none;
+}
+
+.malinilink:hover {
+	font-style: italic;
+	font-weight: bold;
+	text-decoration: underline;
+}
+
+.ethan {
+	clear: both;
+    display: inline-block;
+    overflow: hidden;
+    white-space: nowrap;
+    max-width: 100%;
+    font-family: 'Trebuchet MS', sans-serif;
+    font-size: 2rem;
+    font-weight: 550;
+    margin-bottom: 0.8vw;
+    color: hsl(35, 100%, 90%);
+}
+
+.ethanlink {
+	color: #20B2AA;
+	text-decoration: none;
+}
+
+.ethanlink:hover {
+	font-style: italic;
+	font-weight: bold;
+	text-decoration: underline;
+}
+
+.nicole {
+	clear: both;
+    display: inline-block;
+    overflow: hidden;
+    white-space: nowrap;
+    max-width: 100%;
+    font-family: 'Roboto', sans-serif;
+    font-size: 2rem;
+    font-weight: 550;
+    margin-bottom: 0.8vw;
+    color: hsl(35, 100%, 90%);
+}
+
+.nicolelink {
+	color: #650c24;;
+	text-decoration: none;
+}
+
+.nicolelink:hover {
+	font-style: italic;
+	font-weight: bold;
+	text-decoration: underline;
+}
+
+.ani {
+	clear: both;
+    display: inline-block;
+    overflow: hidden;
+    white-space: nowrap;
+    max-width: 100%;
+    font-family: monaco;
+    font-size: 2rem;
+    font-weight: 550;
+    margin-bottom: 0.8vw;
+    color: hsl(35, 100%, 90%);
+}
+
+.anilink {
+	color: deeppink;
+	text-decoration: none;
+}
+
+.anilink:hover {
+	font-style: italic;
+	font-weight: bold;
+	text-decoration: underline;
+}
+
+.sarah {
+	clear: both;
+    display: inline-block;
+    overflow: hidden;
+    white-space: nowrap;
+    max-width: 100%;
+    font-family: helvetica;
+    font-size: 2rem;
+    font-weight: 550;
+    margin-bottom: 0.8vw;
+    color: hsl(35, 100%, 90%);
+}
+
+.sarahlink {
+	color: purple;
+	text-decoration: none;
+}
+
+.sarahlink:hover {
+	font-style: italic;
+	font-weight: bold;
+	text-decoration: underline;
+}
+
+.ivy {
+	clear: both;
+    display: inline-block;
+    overflow: hidden;
+    white-space: nowrap;
+    max-width: 100%;
+    font-family: adobe-garamond-pro, serif;
+    font-size: 2rem;
+    font-weight: 550;
+    margin-bottom: 0.8vw;
+    color: hsl(35, 100%, 90%);
+}
+
+.ivylink {
+	color: hsl(2, 84%, 15%);
+	text-decoration: none;
+}
+
+.ivylink:hover {
+	font-style: italic;
+	font-weight: bold;
+	text-decoration: underline;
+}
+
+.hunter {
+	clear: both;
+    display: inline-block;
+    overflow: hidden;
+    white-space: nowrap;
+    max-width: 100%;
+    font-family: system-ui;
+    font-size: 2rem;
+    font-weight: 550;
+    margin-bottom: 0.8vw;
+    color: hsl(35, 100%, 90%);
+}
+
+.hunterlink {
+	color: #000dff;
+	text-decoration: none;
+}
+
+.hunterlink:hover {
+	font-style: italic;
+	font-weight: bold;
+	text-decoration: underline;
+}
+
+.emily {
+	clear: both;
+    display: inline-block;
+    overflow: hidden;
+    white-space: nowrap;
+    max-width: 100%;
+    font-family: times-new-roman;
+    font-size: 2rem;
+    font-weight: 550;
+    margin-bottom: 0.8vw;
+    color: hsl(35, 100%, 90%);
+}
+
+.emilylink {
+	color: navy;
+	text-decoration: none;
+}
+
+.emilylink:hover {
+	font-style: italic;
+	font-weight: bold;
+	text-decoration: underline;
+}
+
+.daniela {
+	clear: both;
+    display: inline-block;
+    overflow: hidden;
+    white-space: nowrap;
+    max-width: 100%;
+    font-family: arial;
+    font-size: 2rem;
+    font-weight: 550;
+    margin-bottom: 0.8vw;
+    color: hsl(35, 100%, 90%);
+}
+
+.danielalink {
+	color: #F314FF;
+	text-decoration: none;
+}
+
+.danielalink:hover {
+	font-style: italic;
+	font-weight: bold;
+	text-decoration: underline;
+}
+
+.carly {
+	clear: both;
+    display: inline-block;
+    overflow: hidden;
+    white-space: nowrap;
+    max-width: 100%;
+    font-family: 'Righteous', cursive;
+    font-size: 2rem;
+    font-weight: 550;
+    margin-bottom: 0.8vw;
+    color: hsl(35, 100%, 90%);
+}
+
+.carlylink {
+	color: #2bff00;
+	text-decoration: none;
+}
+
+.carlylink:hover {
+	font-style: italic;
+	font-weight: bold;
+	text-decoration: underline;
+}
+
+.sophie {
+	clear: both;
+    display: inline-block;
+    overflow: hidden;
+    white-space: nowrap;
+    max-width: 100%;
+    font-family: 'Archivo Black', sans-serif;
+    font-size: 2rem;
+    font-weight: 550;
+    margin-bottom: 0.8vw;
+    color: hsl(35, 100%, 90%);
+}
+
+.sophielink {
+	color: coral;
+	text-decoration: none;
+}
+
+.sophielink:hover {
+	font-style: italic;
+	font-weight: bold;
+	text-decoration: underline;
+}
+
+.allison {
+	clear: both;
+    display: inline-block;
+    overflow: hidden;
+    white-space: nowrap;
+    max-width: 100%;
+    font-family: 'Roboto', sans-serif;
+    font-size: 2rem;
+    font-weight: 550;
+    margin-bottom: 0.8vw;
+    color: hsl(35, 100%, 90%);
+}
+
+.allisonlink {
+	color: lavender;
+	text-decoration: none;
+}
+
+.allisonlink:hover {
+	font-style: italic;
+	font-weight: bold;
+	text-decoration: underline;
+}
+
+.germaine {
+	clear: both;
+    display: inline-block;
+    overflow: hidden;
+    white-space: nowrap;
+    max-width: 100%;
+    font-family: times-new-roman;
+    font-size: 2rem;
+    font-weight: 550;
+    margin-bottom: 0.5vw;
+    color: hsl(35, 100%, 90%);
+}
+
+.germainelink {
+	color: blue;
+	text-decoration: none;
+}
+
+.germainelink:hover {
+	font-style: italic;
+	font-weight: bold;
+	text-decoration: underline;
+}

@@ -1,0 +1,110 @@
+/*
+  Coding from Life – Sketch 1: fixed layout
+
+  For sketch 1 you'll be positioning elements relative to an element with a fixed
+  width and height. For this sketch you can position elements by using pixel values.
+*/
+
+body {
+  background-color: black;
+}
+
+.frame {
+  width: 1000px;
+  height: 600px;
+  background: white;
+  margin: 30px auto;
+  position: relative;
+  z-index: -5;
+}
+
+/* Your CSS goes here */
+
+.cover {
+	width: 150px;
+	height: 180px;
+	border: 1px solid black;
+	position: absolute;
+	top: 200px;
+	left: 200px;
+}
+
+.vase {
+  display: block;
+  width: 100px;
+  height: 110px;
+  background: hsl(0, 0%, 92%);
+  border-radius: 60% 60% 30% 30% / 80% 80% 40% 40%;
+  position: absolute;
+  top: 200px;
+  left: 600px;
+  z-index: 2;
+}
+
+.stem1 {
+  width: 5px;
+  height: 35px;
+  border-radius: 20% 20%;
+  border-bottom: 0%;
+  background: green;
+  position: absolute;
+  left: 50px;
+  top: -30%;
+}
+
+.stem2 {
+  width: 8px;
+  height: 40px;
+  border-radius: 20% 20%;
+  border-bottom: 0%;
+  background: green;
+  position: absolute;
+  left: 40px;
+  top: -35%;
+  transform: rotate(-5deg);
+}
+
+.stem3 {
+  width: 5px;
+  height: 45px;
+  border-radius: 20% 20%;
+  border-bottom: 0%;
+  background: green;
+  position: absolute;
+  left: 59px;
+  top: -39%;
+  transform: rotate(10deg);
+}
+
+.flower1 {
+
+}
+
+.book-top-2 {
+  width: 170px;
+  height: 30px;
+  transform: skew(50deg);
+  background: hsl(0, 0%, 25%);
+  position: absolute;
+  top: 305px;
+  left: 540px;
+}
+
+.spine {
+  width: 170px;
+  height: 30px;
+  background: black;
+  position: absolute;
+  top: 335px;
+  left: 557px;
+}
+
+.tabletop {
+  width: 800px;
+  height: 100px;
+  background: hsl(36, 44%, 78%);
+  position: absolute; 
+  top: 320px;
+  left: 100px;
+  z-index: -4;
+}

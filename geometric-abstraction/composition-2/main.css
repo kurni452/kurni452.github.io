@@ -1,0 +1,90 @@
+body {
+    background-color: white;
+    min-width: 800px;
+}
+
+.shapes {
+	display: flex;
+  	flex-direction: column;
+  	justify-content: center;
+  	align-items: center;
+  	text-align: center;
+  	min-height: 100vh;
+}
+
+.square1 {
+	background-color: hsl(27, 81%, 54%);
+	width: 55vw;
+	height: 55vw;
+	animation-name: colorone;
+	animation-duration: 10s;
+    animation-iteration-count: infinite;
+    animation-timing-function: alternate-reverse;
+    transition: all ease 5s;
+}
+
+.square2 {
+	background-color: hsl(38, 81%, 54%);
+	width: 45vw;
+	height: 45vw;
+	position: absolute;
+	right: auto;
+	top: 15%;
+	animation-name: colortwo;
+	animation-duration: 10s;
+    animation-iteration-count: infinite;
+    animation-timing-function: alternate-reverse;
+    transition: all ease 5s;
+}
+
+.square3 {
+	background-color: hsl(33, 100%, 71%);
+	width: 30vw;
+	height: 30vw;
+	position: absolute;
+	right: auto;
+	top: 37%;
+	animation-name: colorthree;
+	animation-duration: 10s;
+    animation-iteration-count: infinite;
+    animation-timing-function: alternate-reverse;
+    transition: all ease 5s;
+}
+
+.square4 {
+	background-color: hsl(42, 100%, 39%);
+	width: 15vw;
+	height: 15vw;
+	position: absolute;
+	right: auto;
+	top: 60%;
+	animation-name: translate;
+	animation-duration: 3s;
+    animation-iteration-count: infinite;
+    animation-timing-function: alternate-reverse;
+    transition: all ease 1s;
+}
+
+@keyframes translate {
+	0% {transform: translateY(0px);}
+	50% {transform: translateY(-150px);}
+	100% {transform: translateY(0px);}
+}
+
+@keyframes colorone {
+	0% {background-color: hsl(27, 81%, 54%);}
+	50% {background-color: hsl(0, 0%, 90%);}
+	100% {background-color: hsl(27, 81%, 54%);}
+}
+
+@keyframes colortwo {
+	0% {background-color: hsl(38, 81%, 54%);}
+	50% {background-color: hsl(0, 0%, 20%);}
+	100% {background-color: hsl(38, 81%, 54%);}
+}
+
+@keyframes colorthree {
+	0% {background-color: hsl(33, 100%, 71%);}
+	50% {background-color: hsl(0, 0%, 60%);}
+	100% {background-color: hsl(33, 100%, 71%);}
+}
